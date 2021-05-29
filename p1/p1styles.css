@@ -51,12 +51,12 @@ section::after {
 
 .button1 {
   background-color: White;
-  font-size: 300%;
-  padding: 10px 10px;
+  font-size: 250%;
+  padding: 8px 8px;
   border-radius: 50%;
   border: 2px solid #e7e7e7;
   transition-duration: 0.2s;
-  width: 90px;
+  width: 80px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
