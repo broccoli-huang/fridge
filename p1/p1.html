@@ -59,8 +59,7 @@
 				<button class="button1" onclick="Click('127952')"> &#127952 </button>
 				<button class="button1" onclick="Click('127922')"> &#127922 </button>
 				<button class="button1" onclick="Click('127849')"> &#127849 </button>
-				<button class="button1" onclick="Click('128400')"> &#128400 </button>
-				<button class="button1" onclick="Click('127769')"> &#127769 </button>
+				<button class="button0" onclick="Clear()"> CLEAR </button>
 			</div>
 		</article>
 	</section>
@@ -78,6 +77,10 @@
 					document.getElementById('showbar').innerHTML = "Correct!";
 				}, 500);
 			}
+		}
+		function Clear(){
+			str_reg = '';
+			document.getElementById("showbar").innerHTML = "";
 		}
 	</script>
 
