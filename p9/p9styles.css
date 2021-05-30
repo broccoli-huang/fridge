@@ -57,14 +57,17 @@ input {
 	cursor:text;
 	border-radius: 10px; 
 }
+
 .smbtn{
 	font-size:200%;
 	padding:5px 15px; 
 	background:#ccc; 
-	border:0 none;
+	border: 2px solid #ccc;
 	cursor:pointer;
 	border-radius: 10px; 
+	transition-duration: 0.2s;
 }
+.smbtn:hover {background-color: White;}
 
 .showbar1{
 	font-size:250%;
